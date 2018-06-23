@@ -9,7 +9,7 @@ Troubleshooting:
 #include <boost/iterator/iterator_adaptor.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
--> https://github.com/facebook/react-native/issues/14404
+-> (https://github.com/facebook/react-native/issues/14404) Delete boost_1_63_0.tar.gz from ~/.rncache and run start ios again
 
 Command failed: /usr/libexec/PlistBuddy -c Print:CFBundleIdentifier build/Build/Products/Debug-iphonesimulator/LingoApp.app/Info.plist
 Print: Entry, ":CFBundleIdentifier", Does Not Exist
