@@ -10,14 +10,14 @@ import {
   View
 } from 'react-native'
 
-import LoginScreen from './components/login/LoginScreen'
+import FBLoginButton from './FBLoginButton'
 
-export default class App extends React.Component<{}> {
+export default class LoginScreen extends React.Component<{}> {
 
   render() {
     return (
       <View style={styles.container}>
-        <LoginScreen/>
+        <FBLoginButton/>
       </View>
     )
   }
