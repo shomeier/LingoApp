@@ -14,3 +14,7 @@ Troubleshooting:
 Command failed: /usr/libexec/PlistBuddy -c Print:CFBundleIdentifier build/Build/Products/Debug-iphonesimulator/LingoApp.app/Info.plist
 Print: Entry, ":CFBundleIdentifier", Does Not Exist
 -> https://github.com/facebook/react-native/issues/14423
+
+Install FBSDK like described here:
+https://developers.facebook.com/docs/react-native/getting-started
+
