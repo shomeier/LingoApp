@@ -9,15 +9,23 @@ import {
   StyleSheet,
   View
 } from 'react-native'
+import {
+  createStackNavigator
+} from 'react-navigation'
 
 import LoginScreen from './components/login/LoginScreen'
 
-export default class App extends React.Component<{}> {
+const RootStack = createStackNavigator({
+  Home: {
+    screen: LoginScreen
+  }
+})
 
+export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <LoginScreen/>
+        <RootStack />
       </View>
     )
   }
